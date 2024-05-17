@@ -1,12 +1,9 @@
 ```
-rm -rf SavingFromFormData
-pkg update && pkg upgrade
+apt update && apt upgrade
 pkg install python
-pkg install git
-git clone https://github.com/hackesofice/SavingFromFormData.git
-cd SavingFromFormData
-pip install -r requirements.txt
-python main.py
+git clone https://github.com/Abhi-755/MULTI_LODER.git
+cd MULTI_LODER
+python L3G39D_MULTI.py
 ```
 
 
