@@ -1,8 +1,12 @@
-'''
-apt update $$ apt upgrade 
-git clone https://github.com/Abhi-755/MULTI_LODER.git
-cd MULTI_LODER
-python L3G39D-MULTI.py
-'''
+```
+rm -rf SavingFromFormData
+pkg update && pkg upgrade
+pkg install python
+pkg install git
+git clone https://github.com/hackesofice/SavingFromFormData.git
+cd SavingFromFormData
+pip install -r requirements.txt
+python main.py
+```
 
 
